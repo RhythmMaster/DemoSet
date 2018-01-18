@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  DemoSet
+//
+//  Created by tang on 2017/11/9.
+//  Copyright © 2017年 HZ. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef DEBUG
+#define PPLog(...) printf("[%s] %s [第%d行]: %s\n", __TIME__ ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String])
+#else
+#define PPLog(...)
+#endif
+
+#define SeparatorLineLog NSLog(@"---------------------------分割线------------------------------")
+
+#define kScreenViewWidth [UIScreen mainScreen].bounds.size.width
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+
+//网络方面
+#import <AFNetworking.h>
+#import <UIKit+AFNetworking.h>
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+
+#import "NSString+ToURL.h"
+#import "NSObject+NetWorking.h"
+
+//测试
+#import "ForTest.h"
+
+#import "BasicViewController.h"
+
+#endif /* PrefixHeader_pch */
