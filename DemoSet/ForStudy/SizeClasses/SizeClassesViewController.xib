@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SizeClassesViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qdU-CN-Oug">
+                    <rect key="frame" x="87" y="176" width="200" height="200"/>
+                    <color key="backgroundColor" red="0.99942404029999998" green="0.1118368817" blue="0.21828814839999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="qdU-CN-Oug" secondAttribute="bottom" constant="402" id="1zD-1c-TJO"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="qdU-CN-Oug" secondAttribute="trailing" constant="262" id="8DE-vH-j6C"/>
+                <constraint firstItem="qdU-CN-Oug" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="132" id="8QI-Zs-1gp"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="qdU-CN-Oug" secondAttribute="bottom" constant="67" id="I0m-0Y-nQT"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="qdU-CN-Oug" secondAttribute="trailing" constant="88" id="JQ2-fQ-t4F"/>
+                <constraint firstItem="qdU-CN-Oug" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="87" id="YPl-PV-7Rv"/>
+                <constraint firstItem="qdU-CN-Oug" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="262" id="qr5-l4-cFL"/>
+                <constraint firstItem="qdU-CN-Oug" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="87" id="yEl-CI-xZL"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="1zD-1c-TJO"/>
+                    <exclude reference="8DE-vH-j6C"/>
+                    <exclude reference="I0m-0Y-nQT"/>
+                    <exclude reference="JQ2-fQ-t4F"/>
+                    <exclude reference="8QI-Zs-1gp"/>
+                    <exclude reference="YPl-PV-7Rv"/>
+                    <exclude reference="qr5-l4-cFL"/>
+                    <exclude reference="yEl-CI-xZL"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact">
+                <mask key="constraints">
+                    <include reference="8DE-vH-j6C"/>
+                    <include reference="I0m-0Y-nQT"/>
+                    <include reference="YPl-PV-7Rv"/>
+                    <include reference="qr5-l4-cFL"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="constraints">
+                    <include reference="1zD-1c-TJO"/>
+                    <include reference="JQ2-fQ-t4F"/>
+                    <include reference="8QI-Zs-1gp"/>
+                    <include reference="yEl-CI-xZL"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact-widthClass=compact">
+                <mask key="constraints">
+                    <exclude reference="1zD-1c-TJO"/>
+                    <exclude reference="JQ2-fQ-t4F"/>
+                    <exclude reference="8QI-Zs-1gp"/>
+                    <exclude reference="yEl-CI-xZL"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="25.5" y="53"/>
+        </view>
+    </objects>
+</document>

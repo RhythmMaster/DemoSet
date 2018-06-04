@@ -135,7 +135,7 @@
     [super viewDidAppear:animated];
     /*
      auto layout system在处理某个view的size时，参考值包括：
-     自身的intrinsicContentSize方法返回值；UIView 这时候返回的事(-1, -1)
+     自身的intrinsicContentSize方法返回值；UIView 这时候返回的是(-1, -1)
      subviews的intrinsicContentSize方法返回值；
      自身和subviews的constraints；
      

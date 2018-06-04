@@ -11,4 +11,6 @@
 @interface BasicViewController : UIViewController
 @property(nonatomic, copy) NSArray *dataArr;
 @property(nonatomic, copy) NSArray *controllerArr;
+/** 更新tableView.frame */
+@property(nonatomic, assign) CGRect tableViewFrame;
 @end

@@ -11,6 +11,7 @@
 #import "DownloadViewController.h"
 #import "TestViewController.h"
 #import "ForStudyViewController.h"
+#import "DemoViewController.h"
 
 
 
@@ -64,13 +65,13 @@
 
 - (NSArray *)dataArr {
     if (!_dataArr) {
-        _dataArr = @[@"下拉刷新", @"异步下载", @"功能测试", @"学习"];
+        _dataArr = @[@"下拉刷新", @"异步下载", @"功能测试", @"学习", @"demo"];
     }
     return _dataArr;
 }
 - (NSArray *)controllerArr {
     if (!_controllerArr) {
-        _controllerArr = @[[RefreshDemoViewController class], [DownloadViewController class], [TestViewController class], [ForStudyViewController class]];
+        _controllerArr = @[[RefreshDemoViewController class], [DownloadViewController class], [TestViewController class], [ForStudyViewController class], [DemoViewController class]];
     }
     return _controllerArr;
 }

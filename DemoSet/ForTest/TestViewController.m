@@ -15,6 +15,7 @@
 #import "SubSelfAndSuperViewController.h"
 #import "CategoryFunctionViewController.h"
 #import "TestFrameViewController.h"
+#import "UILabelNullViewController.h"
 
 @interface TestViewController () <UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
@@ -70,13 +71,13 @@
 
 - (NSArray *)dataArr {
     if (!_dataArr) {
-        _dataArr = @[@"旋转动画测试", @"layer.masksToBounds测试", @"CALayer绘图", @"class_addMethod返回值问题", @"self = [super init]", @"分类跟原类方法问题", @"self.view.frame问题"];
+        _dataArr = @[@"旋转动画测试", @"layer.masksToBounds测试", @"CALayer绘图", @"class_addMethod返回值问题", @"self = [super init]", @"分类跟原类方法问题", @"self.view.frame问题", @"利用Runtime解决label.text=null为题"];
     }
     return _dataArr;
 }
 - (NSArray *)controllerArr {
     if (!_controllerArr) {
-        _controllerArr = @[[FirstViewController class], [SecondViewController class], [ThirdViewController class], [FourViewController class], [SubSelfAndSuperViewController class], [CategoryFunctionViewController class], [TestFrameViewController class]];
+        _controllerArr = @[[FirstViewController class], [SecondViewController class], [ThirdViewController class], [FourViewController class], [SubSelfAndSuperViewController class], [CategoryFunctionViewController class], [TestFrameViewController class], [UILabelNullViewController class]];
         
     }
     return _controllerArr;

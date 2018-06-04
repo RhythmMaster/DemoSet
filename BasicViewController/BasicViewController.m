@@ -32,6 +32,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark method set
+- (void)setTableViewFrame:(CGRect)tableViewFrame {
+    _tableViewFrame = tableViewFrame;
+    self.tableView.frame = tableViewFrame;
+    
+}
+
 #pragma mark -UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -49,6 +56,10 @@
         return self.dataArr.count;
     }
     return 0;
+}
+
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{

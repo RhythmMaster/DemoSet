@@ -17,7 +17,16 @@
 
 #define SeparatorLineLog NSLog(@"---------------------------分割线------------------------------")
 
+//屏幕宽度 高度
+#define kScreenW ([UIScreen mainScreen].bounds.size.width)
+#define kScreenH ([UIScreen mainScreen].bounds.size.height)
+
 #define kScreenViewWidth [UIScreen mainScreen].bounds.size.width
+
+#define kNavAndStatusHight  self.navigationController.navigationBar.frame.size.height+[[UIApplication sharedApplication] statusBarFrame].size.height
+
+//三原色的设置
+#define kRGBA(R,G,B,A) ([UIColor colorWithRed:(R)/255.0 green:(G)/255.0 blue:(B)/255.0 alpha:A])
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
@@ -36,5 +45,8 @@
 #import "ForTest.h"
 
 #import "BasicViewController.h"
+
+
+#import "UIButton+TZLAdjust.h"
 
 #endif /* PrefixHeader_pch */

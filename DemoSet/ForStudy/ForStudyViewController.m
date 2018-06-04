@@ -17,6 +17,8 @@
 #import "AutoLayoutBaseViewController.h"
 #import "LLDBViewController.h"
 #import "KVOTheoryViewController.h"
+#import "AboutCollectionViewController.h"
+#import "UserNotificationsViewController.h"
 
 @interface ForStudyViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
@@ -67,13 +69,13 @@
 
 - (NSArray *)dataArr {
     if (!_dataArr) {
-        _dataArr = @[@"动画学习", @"文件路径", @"解档归档", @"Runtime", @"利用runtime解决数组越界等问题", @"图片拉伸方式", @"深入理解Auto Layout ", @"LLDB调试学习", @"KVO原理"];
+        _dataArr = @[@"动画学习", @"文件路径", @"解档归档", @"Runtime", @"利用runtime解决数组越界等问题", @"图片拉伸方式", @"深入理解Auto Layout ", @"LLDB调试学习", @"KVO原理", @"自定义CollectionViewFlowLayout", @"消息推送"];
     }
     return _dataArr;
 }
 - (NSArray *)controllerArr {
     if (!_controllerArr) {
-        _controllerArr = @[[AnimationViewController class], [FilePathViewController class], [ArchiveViewController class], [RuntimeViewController class], [OverBorderViewController class], [PictureStretchViewController class], [AutoLayoutBaseViewController class], [LLDBViewController class], [KVOTheoryViewController class]];
+        _controllerArr = @[[AnimationViewController class], [FilePathViewController class], [ArchiveViewController class], [RuntimeViewController class], [OverBorderViewController class], [PictureStretchViewController class], [AutoLayoutBaseViewController class], [LLDBViewController class], [KVOTheoryViewController class], [AboutCollectionViewController class], [UserNotificationsViewController class]];
         
     }
     return _controllerArr;

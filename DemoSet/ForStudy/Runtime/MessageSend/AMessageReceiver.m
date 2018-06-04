@@ -49,6 +49,8 @@ void newTestFunction() {
 }
 - (void)newTestMethod {
     NSLog(@"%s", __func__);
+    
+    
 }
 
 

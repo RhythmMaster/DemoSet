@@ -59,7 +59,9 @@
         } completion:^(BOOL finished) {
             animationView.hidden = NO;
             toView.hidden = NO;
-            [snapShotView removeFromSuperview];
+            NSLog(@"%@", NSStringFromCGRect(toView.frame));
+            NSLog(@"%@", NSStringFromCGRect(snapShotView.frame));
+            //[snapShotView removeFromSuperview];
             //告诉系统动画结束
             [transitionContext completeTransition:!transitionContext.transitionWasCancelled];
         }];
@@ -92,7 +94,7 @@
         } completion:^(BOOL finished) {
             animationView.hidden = NO;
             toView.hidden = NO;
-            [snapShotView removeFromSuperview];
+            //[snapShotView removeFromSuperview];
             //告诉系统动画结束
             [transitionContext completeTransition:!transitionContext.transitionWasCancelled];
         }];
