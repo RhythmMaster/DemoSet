@@ -39,7 +39,7 @@
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"UICollectionViewCell" forIndexPath:indexPath];
-    cell.backgroundColor = kRGBA(10 * indexPath.row + 100, 20 * indexPath.row + 200, 15 * indexPath.row + 10, 1.0);
+    cell.backgroundColor = RadomColor;
     UILabel *label = [UILabel new];
     [cell.contentView addSubview:label];
     label.text = @(indexPath.row).stringValue;

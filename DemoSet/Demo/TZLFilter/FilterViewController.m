@@ -42,6 +42,7 @@
             make.height.equalTo(36);
         }];
         self.tableViewFrame = CGRectMake(0, 36, kScreenW, kScreenH - 36);
+        _filterView.datas = @[@"金额升序", @"金额降序", @"日期升序", @"日期降序"];
     }
     return _filterView;
 }

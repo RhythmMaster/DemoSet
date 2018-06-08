@@ -48,6 +48,34 @@
 		242FCE6E1FFCD22800F21C10 /* TestFramHaveTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 242FCE6D1FFCD22800F21C10 /* TestFramHaveTabBarController.m */; };
 		243A41DE20C4DD5F00ECC1E2 /* TZLFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A41DD20C4DD5F00ECC1E2 /* TZLFilterView.m */; };
 		243A41E120C4DD9300ECC1E2 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A41E020C4DD9300ECC1E2 /* FilterViewController.m */; };
+		243A41E520C6261700ECC1E2 /* MasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A41E420C6261700ECC1E2 /* MasonryViewController.m */; };
+		243A41E820C626CC00ECC1E2 /* SubMasonaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A41E720C626CC00ECC1E2 /* SubMasonaryViewController.m */; };
+		243A41EC20C676A900ECC1E2 /* UIStackViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A41EB20C676A900ECC1E2 /* UIStackViewViewController.m */; };
+		243A41EF20C76A6500ECC1E2 /* SubStatckViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A41EE20C76A6500ECC1E2 /* SubStatckViewViewController.m */; };
+		243A41F420C7727B00ECC1E2 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A41F320C7727B00ECC1E2 /* PickerViewController.m */; };
+		243A41F720C7734F00ECC1E2 /* TZLPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A41F620C7734F00ECC1E2 /* TZLPickerViewController.m */; };
+		243A420920C7892A00ECC1E2 /* 222_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A41F920C7892A00ECC1E2 /* 222_7.jpg */; };
+		243A420A20C7892A00ECC1E2 /* 222_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A41FA20C7892A00ECC1E2 /* 222_6.jpg */; };
+		243A420B20C7892A00ECC1E2 /* 222_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A41FB20C7892A00ECC1E2 /* 222_4.jpg */; };
+		243A420C20C7892A00ECC1E2 /* 222_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A41FC20C7892A00ECC1E2 /* 222_5.jpg */; };
+		243A420D20C7892A00ECC1E2 /* 222_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A41FD20C7892A00ECC1E2 /* 222_1.jpg */; };
+		243A420E20C7892A00ECC1E2 /* 222_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A41FE20C7892A00ECC1E2 /* 222_2.jpg */; };
+		243A420F20C7892A00ECC1E2 /* 222_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A41FF20C7892A00ECC1E2 /* 222_3.jpg */; };
+		243A421020C7892A00ECC1E2 /* 222_16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A420020C7892A00ECC1E2 /* 222_16.jpg */; };
+		243A421120C7892A00ECC1E2 /* 222_15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A420120C7892A00ECC1E2 /* 222_15.jpg */; };
+		243A421220C7892A00ECC1E2 /* 222_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A420220C7892A00ECC1E2 /* 222_14.jpg */; };
+		243A421320C7892A00ECC1E2 /* 222_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A420320C7892A00ECC1E2 /* 222_10.jpg */; };
+		243A421420C7892A00ECC1E2 /* 222_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A420420C7892A00ECC1E2 /* 222_11.jpg */; };
+		243A421520C7892A00ECC1E2 /* 222_13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A420520C7892A00ECC1E2 /* 222_13.jpg */; };
+		243A421620C7892A00ECC1E2 /* 222_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A420620C7892A00ECC1E2 /* 222_12.jpg */; };
+		243A421720C7892A00ECC1E2 /* 222_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A420720C7892A00ECC1E2 /* 222_8.jpg */; };
+		243A421820C7892A00ECC1E2 /* 222_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243A420820C7892A00ECC1E2 /* 222_9.jpg */; };
+		243A421C20C7D97700ECC1E2 /* ResponderChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A421B20C7D97700ECC1E2 /* ResponderChainViewController.m */; };
+		243A421F20C7D9D300ECC1E2 /* UIView+Responder.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A421E20C7D9D300ECC1E2 /* UIView+Responder.m */; };
+		243A422320C8D1A500ECC1E2 /* TZLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A422220C8D1A500ECC1E2 /* TZLTabBarController.m */; };
+		243A422620C8D1C500ECC1E2 /* TZLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A422520C8D1C500ECC1E2 /* TZLTabBar.m */; };
+		243A422920C8D4CB00ECC1E2 /* TZLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A422820C8D4CB00ECC1E2 /* TZLNavigationController.m */; };
+		243A422C20C8D53D00ECC1E2 /* SubTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A422B20C8D53D00ECC1E2 /* SubTabBarViewController.m */; };
 		243B62081FB9789C006472EE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243B62071FB9789C006472EE /* FirstViewController.m */; };
 		243B620B1FB97902006472EE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243B620A1FB97902006472EE /* SecondViewController.m */; };
 		243B620D1FB97D4E006472EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243B620C1FB97D4E006472EE /* Assets.xcassets */; };
@@ -228,6 +256,46 @@
 		243A41DD20C4DD5F00ECC1E2 /* TZLFilterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLFilterView.m; sourceTree = "<group>"; };
 		243A41DF20C4DD9300ECC1E2 /* FilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
 		243A41E020C4DD9300ECC1E2 /* FilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		243A41E320C6261700ECC1E2 /* MasonryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryViewController.h; sourceTree = "<group>"; };
+		243A41E420C6261700ECC1E2 /* MasonryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryViewController.m; sourceTree = "<group>"; };
+		243A41E620C626CC00ECC1E2 /* SubMasonaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubMasonaryViewController.h; sourceTree = "<group>"; };
+		243A41E720C626CC00ECC1E2 /* SubMasonaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubMasonaryViewController.m; sourceTree = "<group>"; };
+		243A41EA20C676A900ECC1E2 /* UIStackViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIStackViewViewController.h; sourceTree = "<group>"; };
+		243A41EB20C676A900ECC1E2 /* UIStackViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIStackViewViewController.m; sourceTree = "<group>"; };
+		243A41ED20C76A6500ECC1E2 /* SubStatckViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubStatckViewViewController.h; sourceTree = "<group>"; };
+		243A41EE20C76A6500ECC1E2 /* SubStatckViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubStatckViewViewController.m; sourceTree = "<group>"; };
+		243A41F220C7727B00ECC1E2 /* PickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		243A41F320C7727B00ECC1E2 /* PickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		243A41F520C7734F00ECC1E2 /* TZLPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLPickerViewController.h; sourceTree = "<group>"; };
+		243A41F620C7734F00ECC1E2 /* TZLPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLPickerViewController.m; sourceTree = "<group>"; };
+		243A41F920C7892A00ECC1E2 /* 222_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_7.jpg; sourceTree = "<group>"; };
+		243A41FA20C7892A00ECC1E2 /* 222_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_6.jpg; sourceTree = "<group>"; };
+		243A41FB20C7892A00ECC1E2 /* 222_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_4.jpg; sourceTree = "<group>"; };
+		243A41FC20C7892A00ECC1E2 /* 222_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_5.jpg; sourceTree = "<group>"; };
+		243A41FD20C7892A00ECC1E2 /* 222_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_1.jpg; sourceTree = "<group>"; };
+		243A41FE20C7892A00ECC1E2 /* 222_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_2.jpg; sourceTree = "<group>"; };
+		243A41FF20C7892A00ECC1E2 /* 222_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_3.jpg; sourceTree = "<group>"; };
+		243A420020C7892A00ECC1E2 /* 222_16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_16.jpg; sourceTree = "<group>"; };
+		243A420120C7892A00ECC1E2 /* 222_15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_15.jpg; sourceTree = "<group>"; };
+		243A420220C7892A00ECC1E2 /* 222_14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_14.jpg; sourceTree = "<group>"; };
+		243A420320C7892A00ECC1E2 /* 222_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_10.jpg; sourceTree = "<group>"; };
+		243A420420C7892A00ECC1E2 /* 222_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_11.jpg; sourceTree = "<group>"; };
+		243A420520C7892A00ECC1E2 /* 222_13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_13.jpg; sourceTree = "<group>"; };
+		243A420620C7892A00ECC1E2 /* 222_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_12.jpg; sourceTree = "<group>"; };
+		243A420720C7892A00ECC1E2 /* 222_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_8.jpg; sourceTree = "<group>"; };
+		243A420820C7892A00ECC1E2 /* 222_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222_9.jpg; sourceTree = "<group>"; };
+		243A421A20C7D97700ECC1E2 /* ResponderChainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponderChainViewController.h; sourceTree = "<group>"; };
+		243A421B20C7D97700ECC1E2 /* ResponderChainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponderChainViewController.m; sourceTree = "<group>"; };
+		243A421D20C7D9D300ECC1E2 /* UIView+Responder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Responder.h"; sourceTree = "<group>"; };
+		243A421E20C7D9D300ECC1E2 /* UIView+Responder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Responder.m"; sourceTree = "<group>"; };
+		243A422120C8D1A500ECC1E2 /* TZLTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLTabBarController.h; sourceTree = "<group>"; };
+		243A422220C8D1A500ECC1E2 /* TZLTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLTabBarController.m; sourceTree = "<group>"; };
+		243A422420C8D1C500ECC1E2 /* TZLTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLTabBar.h; sourceTree = "<group>"; };
+		243A422520C8D1C500ECC1E2 /* TZLTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLTabBar.m; sourceTree = "<group>"; };
+		243A422720C8D4CB00ECC1E2 /* TZLNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLNavigationController.h; sourceTree = "<group>"; };
+		243A422820C8D4CB00ECC1E2 /* TZLNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLNavigationController.m; sourceTree = "<group>"; };
+		243A422A20C8D53D00ECC1E2 /* SubTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubTabBarViewController.h; sourceTree = "<group>"; };
+		243A422B20C8D53D00ECC1E2 /* SubTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubTabBarViewController.m; sourceTree = "<group>"; };
 		243B62061FB9789C006472EE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		243B62071FB9789C006472EE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		243B62091FB97902006472EE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -572,6 +640,94 @@
 			path = TZLFilterView;
 			sourceTree = "<group>";
 		};
+		243A41E220C6260A00ECC1E2 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				243A41E320C6261700ECC1E2 /* MasonryViewController.h */,
+				243A41E420C6261700ECC1E2 /* MasonryViewController.m */,
+				243A41E620C626CC00ECC1E2 /* SubMasonaryViewController.h */,
+				243A41E720C626CC00ECC1E2 /* SubMasonaryViewController.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		243A41E920C6769800ECC1E2 /* UIStackView */ = {
+			isa = PBXGroup;
+			children = (
+				243A41EA20C676A900ECC1E2 /* UIStackViewViewController.h */,
+				243A41EB20C676A900ECC1E2 /* UIStackViewViewController.m */,
+				243A41ED20C76A6500ECC1E2 /* SubStatckViewViewController.h */,
+				243A41EE20C76A6500ECC1E2 /* SubStatckViewViewController.m */,
+			);
+			path = UIStackView;
+			sourceTree = "<group>";
+		};
+		243A41F020C7726500ECC1E2 /* TZLPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				243A41F120C7726500ECC1E2 /* TZLPickerView */,
+				243A41F220C7727B00ECC1E2 /* PickerViewController.h */,
+				243A41F320C7727B00ECC1E2 /* PickerViewController.m */,
+			);
+			path = TZLPickerView;
+			sourceTree = "<group>";
+		};
+		243A41F120C7726500ECC1E2 /* TZLPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				243A41F520C7734F00ECC1E2 /* TZLPickerViewController.h */,
+				243A41F620C7734F00ECC1E2 /* TZLPickerViewController.m */,
+			);
+			path = TZLPickerView;
+			sourceTree = "<group>";
+		};
+		243A41F820C7892A00ECC1E2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				243A41F920C7892A00ECC1E2 /* 222_7.jpg */,
+				243A41FA20C7892A00ECC1E2 /* 222_6.jpg */,
+				243A41FB20C7892A00ECC1E2 /* 222_4.jpg */,
+				243A41FC20C7892A00ECC1E2 /* 222_5.jpg */,
+				243A41FD20C7892A00ECC1E2 /* 222_1.jpg */,
+				243A41FE20C7892A00ECC1E2 /* 222_2.jpg */,
+				243A41FF20C7892A00ECC1E2 /* 222_3.jpg */,
+				243A420020C7892A00ECC1E2 /* 222_16.jpg */,
+				243A420120C7892A00ECC1E2 /* 222_15.jpg */,
+				243A420220C7892A00ECC1E2 /* 222_14.jpg */,
+				243A420320C7892A00ECC1E2 /* 222_10.jpg */,
+				243A420420C7892A00ECC1E2 /* 222_11.jpg */,
+				243A420520C7892A00ECC1E2 /* 222_13.jpg */,
+				243A420620C7892A00ECC1E2 /* 222_12.jpg */,
+				243A420720C7892A00ECC1E2 /* 222_8.jpg */,
+				243A420820C7892A00ECC1E2 /* 222_9.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		243A421920C7D96D00ECC1E2 /* ResponderChain */ = {
+			isa = PBXGroup;
+			children = (
+				243A421D20C7D9D300ECC1E2 /* UIView+Responder.h */,
+				243A421E20C7D9D300ECC1E2 /* UIView+Responder.m */,
+				243A421A20C7D97700ECC1E2 /* ResponderChainViewController.h */,
+				243A421B20C7D97700ECC1E2 /* ResponderChainViewController.m */,
+			);
+			path = ResponderChain;
+			sourceTree = "<group>";
+		};
+		243A422020C8D17A00ECC1E2 /* CustomTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				243A422120C8D1A500ECC1E2 /* TZLTabBarController.h */,
+				243A422220C8D1A500ECC1E2 /* TZLTabBarController.m */,
+				243A422A20C8D53D00ECC1E2 /* SubTabBarViewController.h */,
+				243A422B20C8D53D00ECC1E2 /* SubTabBarViewController.m */,
+				243A422420C8D1C500ECC1E2 /* TZLTabBar.h */,
+				243A422520C8D1C500ECC1E2 /* TZLTabBar.m */,
+			);
+			path = CustomTabbar;
+			sourceTree = "<group>";
+		};
 		243B62051FB97873006472EE /* TestController */ = {
 			isa = PBXGroup;
 			children = (
@@ -709,6 +865,7 @@
 			children = (
 				24B037A920BD46FB00D9B5E2 /* DemoViewController.h */,
 				24B037AA20BD46FB00D9B5E2 /* DemoViewController.m */,
+				243A41F020C7726500ECC1E2 /* TZLPickerView */,
 				243A41DA20C4DD2000ECC1E2 /* TZLFilter */,
 				24B037B020BD47D300D9B5E2 /* TZLButtonVC */,
 			);
@@ -770,6 +927,7 @@
 			children = (
 				24F6B9631FD8CD2B00AF9BBC /* BasicViewController */,
 				24F6B9131FCE929B00AF9BBC /* Sounds */,
+				243A41F820C7892A00ECC1E2 /* images */,
 				24F6B8EC1FCE929300AF9BBC /* image */,
 				243B620C1FB97D4E006472EE /* Assets.xcassets */,
 				248D67131FB44A26006CED4C /* Category */,
@@ -815,6 +973,10 @@
 			children = (
 				24F6B8C61FCCECC400AF9BBC /* ForStudyViewController.h */,
 				24F6B8C71FCCECC400AF9BBC /* ForStudyViewController.m */,
+				243A422020C8D17A00ECC1E2 /* CustomTabbar */,
+				243A421920C7D96D00ECC1E2 /* ResponderChain */,
+				243A41E920C6769800ECC1E2 /* UIStackView */,
+				243A41E220C6260A00ECC1E2 /* Masonry */,
 				24241E9F20576ABC00A6EDEC /* UserNotifications */,
 				24241E7F205113CB00A6EDEC /* CollectionViewFlowLayout */,
 				2470C8EF200C3F4E00FB2368 /* KVO */,
@@ -972,6 +1134,8 @@
 			children = (
 				24F6B96A1FD8CF1800AF9BBC /* BasicViewController.h */,
 				24F6B96B1FD8CF1800AF9BBC /* BasicViewController.m */,
+				243A422720C8D4CB00ECC1E2 /* TZLNavigationController.h */,
+				243A422820C8D4CB00ECC1E2 /* TZLNavigationController.m */,
 			);
 			path = BasicViewController;
 			sourceTree = SOURCE_ROOT;
@@ -1116,10 +1280,13 @@
 			files = (
 				24F6B8DE1FCD431700AF9BBC /* GroupAnimationViewController.xib in Resources */,
 				24F6B90E1FCE929400AF9BBC /* chooser-moment-icon-thought-highlighted@2x.png in Resources */,
+				243A420C20C7892A00ECC1E2 /* 222_5.jpg in Resources */,
 				241EC6D3202BE86400C55539 /* SizeClassesViewController.xib in Resources */,
 				24F6B9171FCE929C00AF9BBC /* bloom.caf in Resources */,
 				24F6B9041FCE929400AF9BBC /* chooser-moment-button-highlighted@2x.png in Resources */,
 				24F6B9051FCE929400AF9BBC /* chooser-moment-button@2x.png in Resources */,
+				243A420E20C7892A00ECC1E2 /* 222_2.jpg in Resources */,
+				243A420D20C7892A00ECC1E2 /* 222_1.jpg in Resources */,
 				24F6B90A1FCE929400AF9BBC /* chooser-moment-icon-place-highlighted@2x.png in Resources */,
 				24F6B9111FCE929400AF9BBC /* Like@2x.png in Resources */,
 				24F6B9001FCE929400AF9BBC /* chooser-button-input-highlighted@2x.png in Resources */,
@@ -1130,24 +1297,37 @@
 				24F6B90F1FCE929400AF9BBC /* chooser-moment-icon-thought@2x.png in Resources */,
 				24F6B8EB1FCE44FF00AF9BBC /* AffineTransformViewController.xib in Resources */,
 				24F6B90C1FCE929400AF9BBC /* chooser-moment-icon-sleep-highlighted@2x.png in Resources */,
+				243A421620C7892A00ECC1E2 /* 222_12.jpg in Resources */,
 				24F6B90D1FCE929400AF9BBC /* chooser-moment-icon-sleep@2x.png in Resources */,
 				24F6B8D61FCD3A0900AF9BBC /* KeyAnimationViewController.xib in Resources */,
+				243A421020C7892A00ECC1E2 /* 222_16.jpg in Resources */,
 				24F6B91E1FCE946400AF9BBC /* ComprehensiveViewController.xib in Resources */,
+				243A421220C7892A00ECC1E2 /* 222_14.jpg in Resources */,
 				24F6B90B1FCE929400AF9BBC /* chooser-moment-icon-place@2x.png in Resources */,
 				242AA35C201729930008AF64 /* SublayerTransformViewController.xib in Resources */,
+				243A420A20C7892A00ECC1E2 /* 222_6.jpg in Resources */,
 				24F6B9101FCE929400AF9BBC /* Like-Blue@2x.png in Resources */,
+				243A421520C7892A00ECC1E2 /* 222_13.jpg in Resources */,
 				24DA57F21FB2F72E00663104 /* LaunchScreen.storyboard in Resources */,
+				243A421320C7892A00ECC1E2 /* 222_10.jpg in Resources */,
 				24F6B9121FCE929400AF9BBC /* Sparkle.png in Resources */,
 				24F6B9181FCE929C00AF9BBC /* fold.caf in Resources */,
+				243A421420C7892A00ECC1E2 /* 222_11.jpg in Resources */,
 				24F6B9061FCE929400AF9BBC /* chooser-moment-icon-camera-highlighted@2x.png in Resources */,
 				242AA35F201729930008AF64 /* ThreeDTransitionAnimationViewController.xib in Resources */,
 				243B620D1FB97D4E006472EE /* Assets.xcassets in Resources */,
 				24F6B8E31FCD5FCE00AF9BBC /* TransitionAnimationViewController.xib in Resources */,
+				243A421120C7892A00ECC1E2 /* 222_15.jpg in Resources */,
 				24F6B9081FCE929400AF9BBC /* chooser-moment-icon-music-highlighted@2x.png in Resources */,
 				24F6B9191FCE929C00AF9BBC /* selected.caf in Resources */,
+				243A420F20C7892A00ECC1E2 /* 222_3.jpg in Resources */,
 				24DA57ED1FB2F72E00663104 /* Main.storyboard in Resources */,
 				24F6B9031FCE929400AF9BBC /* chooser-button-tab@2x.png in Resources */,
+				243A420B20C7892A00ECC1E2 /* 222_4.jpg in Resources */,
+				243A421820C7892A00ECC1E2 /* 222_9.jpg in Resources */,
+				243A421720C7892A00ECC1E2 /* 222_8.jpg in Resources */,
 				24F6B9071FCE929400AF9BBC /* chooser-moment-icon-camera@2x.png in Resources */,
+				243A420920C7892A00ECC1E2 /* 222_7.jpg in Resources */,
 				242AA358201729930008AF64 /* DoubleSidedViewController.xib in Resources */,
 				24F6B9021FCE929400AF9BBC /* chooser-button-tab-highlighted@2x.png in Resources */,
 			);
@@ -1321,6 +1501,7 @@
 				2470C8E72007407A00FB2368 /* TZLTextView.m in Sources */,
 				241EC6D2202BE86400C55539 /* SizeClassesViewController.m in Sources */,
 				241EC6C42027E8F100C55539 /* NSString+ForNull.m in Sources */,
+				243A422320C8D1A500ECC1E2 /* TZLTabBarController.m in Sources */,
 				24241EA220576AD400A6EDEC /* UserNotificationsViewController.m in Sources */,
 				241AA7442024626900DB7954 /* UILabelNullViewController.m in Sources */,
 				24F6B9481FD67ED600AF9BBC /* MessageSendViewController.m in Sources */,
@@ -1344,11 +1525,15 @@
 				248D671D1FB45602006CED4C /* ForTest.m in Sources */,
 				242FCE4F1FFC942600F21C10 /* NSObject+Function.m in Sources */,
 				24F6B96C1FD8CF1800AF9BBC /* BasicViewController.m in Sources */,
+				243A421C20C7D97700ECC1E2 /* ResponderChainViewController.m in Sources */,
+				243A41EC20C676A900ECC1E2 /* UIStackViewViewController.m in Sources */,
 				248D67161FB44A37006CED4C /* NSObject+NetWorking.m in Sources */,
 				243B62131FBA7524006472EE /* ThirdThenFirstViewController.m in Sources */,
 				2470C8EE200895F500FB2368 /* LLDBViewController.m in Sources */,
+				243A422620C8D1C500ECC1E2 /* TZLTabBar.m in Sources */,
 				2470C8E32005F83C00FB2368 /* AutoLayoutBaseViewController.m in Sources */,
 				248D67081FB2FECA006CED4C /* RefreshDemoViewController.m in Sources */,
+				243A422C20C8D53D00ECC1E2 /* SubTabBarViewController.m in Sources */,
 				242AA367201729DD0008AF64 /* ControllerButton.m in Sources */,
 				24F6B9401FD4F69900AF9BBC /* DictionaryToModelViewController.m in Sources */,
 				248D67201FB555A9006CED4C /* TestViewController.m in Sources */,
@@ -1357,11 +1542,13 @@
 				242FCE6B1FFCD00300F21C10 /* TestFramHaveTabBarViewController.m in Sources */,
 				24F6B94E1FD67F6B00AF9BBC /* BMessageReceiver.m in Sources */,
 				24F6B9551FD7833700AF9BBC /* OverBorderViewController.m in Sources */,
+				243A41EF20C76A6500ECC1E2 /* SubStatckViewViewController.m in Sources */,
 				241FF4FC1FF5E919001F8179 /* CategoryFunctionViewController.m in Sources */,
 				243A41E120C4DD9300ECC1E2 /* FilterViewController.m in Sources */,
 				24241E882051194B00A6EDEC /* CustomCollectionViewLayout.m in Sources */,
 				242FCE6E1FFCD22800F21C10 /* TestFramHaveTabBarController.m in Sources */,
 				240DBF5D200F422D00E6B89C /* CustomTransitionAnimation.m in Sources */,
+				243A422920C8D4CB00ECC1E2 /* TZLNavigationController.m in Sources */,
 				24F6B8EA1FCE44FF00AF9BBC /* AffineTransformViewController.m in Sources */,
 				24241EA820576B4100A6EDEC /* RemoteNotificationsViewController.m in Sources */,
 				243A41DE20C4DD5F00ECC1E2 /* TZLFilterView.m in Sources */,
@@ -1377,12 +1564,14 @@
 				24F6B8C81FCCECC400AF9BBC /* ForStudyViewController.m in Sources */,
 				24F6B93D1FD4F5E100AF9BBC /* RuntimeViewController.m in Sources */,
 				24DA57F51FB2F72E00663104 /* main.m in Sources */,
+				243A41F720C7734F00ECC1E2 /* TZLPickerViewController.m in Sources */,
 				241EC6C72027F2F200C55539 /* UIFont+runtime.m in Sources */,
 				24241EA520576B2F00A6EDEC /* LocalNotificationsViewController.m in Sources */,
 				24241E82205116B800A6EDEC /* AboutCollectionViewController.m in Sources */,
 				242AA357201729930008AF64 /* DoubleSidedViewController.m in Sources */,
 				24DA57E71FB2F72E00663104 /* AppDelegate.m in Sources */,
 				24F6B92C1FD0E92100AF9BBC /* ArchiveViewController.m in Sources */,
+				243A41F420C7727B00ECC1E2 /* PickerViewController.m in Sources */,
 				242AA359201729930008AF64 /* SolidObjectViewController.m in Sources */,
 				240DBF59200F40DB00E6B89C /* TransitionAnimationViewControllerSecond.m in Sources */,
 				242AA369201729DD0008AF64 /* TZLMenuButtonView.m in Sources */,
@@ -1392,10 +1581,13 @@
 				242FCE651FFCC04B00F21C10 /* TestFrameTabBarController.m in Sources */,
 				242FCE5F1FFCB6E200F21C10 /* TestFrameViewController.m in Sources */,
 				248D670D1FB2FF3B006CED4C /* TZLRefresh.m in Sources */,
+				243A41E520C6261700ECC1E2 /* MasonryViewController.m in Sources */,
+				243A41E820C626CC00ECC1E2 /* SubMasonaryViewController.m in Sources */,
 				24A0B5A41FF338B00031B67A /* SelfAndSuperViewController.m in Sources */,
 				242AA35D201729930008AF64 /* ThreeDTransformViewController.m in Sources */,
 				24F6B9511FD69BD200AF9BBC /* FourViewController.m in Sources */,
 				242FCE5B1FFC9B2900F21C10 /* SubTestObject.m in Sources */,
+				243A421F20C7D9D300ECC1E2 /* UIView+Responder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

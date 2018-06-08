@@ -25,6 +25,8 @@
     [self.view addSubview:self.tableView];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    self.tableView.estimatedRowHeight = 40;
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,13 +43,17 @@
 
 #pragma mark -UITableViewDelegate
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // 立即取消选中
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (self.controllerArr && self.controllerArr.count > 0) {
         UIViewController *VC = [self.controllerArr[indexPath.row] new];
         [self.navigationController pushViewController:VC animated:YES];
     }
+    if (self.didSelectRow) {
+        self.didSelectRow(tableView, indexPath);
+    }
+    
 }
 
 #pragma mark -UITableViewDataSource
@@ -64,6 +70,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell" forIndexPath:indexPath];
+    cell.textLabel.numberOfLines = 0;
     if (self.dataArr && self.dataArr.count  > 0) {
         cell.textLabel.text = self.dataArr[indexPath.row];
     } else {

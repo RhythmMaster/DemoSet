@@ -19,6 +19,10 @@
 #import "KVOTheoryViewController.h"
 #import "AboutCollectionViewController.h"
 #import "UserNotificationsViewController.h"
+#import "MasonryViewController.h"
+#import "UIStackViewViewController.h"
+#import "ResponderChainViewController.h"
+#import "TZLTabBarController.h"
 
 @interface ForStudyViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
@@ -69,13 +73,13 @@
 
 - (NSArray *)dataArr {
     if (!_dataArr) {
-        _dataArr = @[@"动画学习", @"文件路径", @"解档归档", @"Runtime", @"利用runtime解决数组越界等问题", @"图片拉伸方式", @"深入理解Auto Layout ", @"LLDB调试学习", @"KVO原理", @"自定义CollectionViewFlowLayout", @"消息推送"];
+        _dataArr = @[@"动画学习", @"文件路径", @"解档归档", @"Runtime", @"利用runtime解决数组越界等问题", @"图片拉伸方式", @"深入理解Auto Layout ", @"LLDB调试学习", @"KVO原理", @"自定义CollectionViewFlowLayout", @"消息推送", @"Masonry还不知道的用法2018-06-05", @"UIStackView", @"iOS响应链(Responder Chain)", @"自定义tabbar"];
     }
     return _dataArr;
 }
 - (NSArray *)controllerArr {
     if (!_controllerArr) {
-        _controllerArr = @[[AnimationViewController class], [FilePathViewController class], [ArchiveViewController class], [RuntimeViewController class], [OverBorderViewController class], [PictureStretchViewController class], [AutoLayoutBaseViewController class], [LLDBViewController class], [KVOTheoryViewController class], [AboutCollectionViewController class], [UserNotificationsViewController class]];
+        _controllerArr = @[[AnimationViewController class], [FilePathViewController class], [ArchiveViewController class], [RuntimeViewController class], [OverBorderViewController class], [PictureStretchViewController class], [AutoLayoutBaseViewController class], [LLDBViewController class], [KVOTheoryViewController class], [AboutCollectionViewController class], [UserNotificationsViewController class], [MasonryViewController class], [UIStackViewViewController class], [ResponderChainViewController class], [TZLTabBarController class]];
         
     }
     return _controllerArr;

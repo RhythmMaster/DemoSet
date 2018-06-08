@@ -9,6 +9,7 @@
 #import "DemoViewController.h"
 #import "TZLButtonViewController.h"
 #import "FilterViewController.h"
+#import "PickerViewController.h"
 
 @interface DemoViewController ()
 
@@ -18,8 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.dataArr = @[@"UIButton位置调整", @"过滤的View"];
-    self.controllerArr = @[[TZLButtonViewController class], [FilterViewController class]];
+    self.dataArr = @[@"UIButton位置调整", @"过滤的View", @"PickerView"];
+    self.controllerArr = @[[TZLButtonViewController class], [FilterViewController class],
+                           [PickerViewController class]];
 }
 
 - (void)didReceiveMemoryWarning {

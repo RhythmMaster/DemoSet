@@ -11,4 +11,6 @@
 @interface TZLFilterView : UIView
 /**  */
 @property(nonatomic, strong) UIButton *filerBtn;
+/** tableView的数据 */
+@property(nonatomic, strong) NSArray *datas;
 @end

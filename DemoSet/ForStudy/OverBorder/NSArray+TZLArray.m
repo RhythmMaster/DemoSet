@@ -23,16 +23,16 @@
 
 + (void)load {
     [super load];
-    SEL fromSel = @selector(objectAtIndex:);
-    SEL toSel = @selector(tzl_objectAtIndex:);
-    Method fromMethod = class_getInstanceMethod(objc_getClass("__NSArrayI"), fromSel);
-    Method toMethod = class_getInstanceMethod(objc_getClass("__NSArrayI"), toSel);
-    BOOL isAdd = class_addMethod([self class], fromSel, method_getImplementation(toMethod), method_getTypeEncoding(toMethod));
-    if (isAdd) {
-        class_replaceMethod([self class], toSel, method_getImplementation(fromMethod), method_getTypeEncoding(fromMethod));
-    } else {
-        method_exchangeImplementations(fromMethod, toMethod);
-    }
+//    SEL fromSel = @selector(objectAtIndex:);
+//    SEL toSel = @selector(tzl_objectAtIndex:);
+//    Method fromMethod = class_getInstanceMethod(objc_getClass("__NSArrayI"), fromSel);
+//    Method toMethod = class_getInstanceMethod(objc_getClass("__NSArrayI"), toSel);
+//    BOOL isAdd = class_addMethod([self class], fromSel, method_getImplementation(toMethod), method_getTypeEncoding(toMethod));
+//    if (isAdd) {
+//        class_replaceMethod([self class], toSel, method_getImplementation(fromMethod), method_getTypeEncoding(fromMethod));
+//    } else {
+//        method_exchangeImplementations(fromMethod, toMethod);
+//    }
 }
 
 - (id)tzl_objectAtIndex:(NSUInteger)index {

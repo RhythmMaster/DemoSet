@@ -18,7 +18,7 @@
     
 }
 - (void)swizzlingSetText:(NSString *)text {
-    NSLog(@"%s", __func__);
+//    NSLog(@"%s", __func__);
     if ([text isEqualToString:@"(null)"]) {
         text = @"...";
     }
