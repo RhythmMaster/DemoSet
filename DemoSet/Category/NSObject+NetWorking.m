@@ -68,7 +68,11 @@
 //            //提示1.5秒钟
 //            [hud hide:YES afterDelay:1.5];
 //            //[hud hideAnimated:YES afterDelay:1.5];
-            
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"请重新登录" message:@"您已掉线或网络异常" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"重新登录", nil];
+            [alertView show];
+#pragma clang diagnostic pop
         }
 
         !completionHandler ?: completionHandler(nil, error);
@@ -120,6 +124,11 @@
         }
         
         //[kAppdelegate.window showWarning:@"当前没有网络,或网络异常!请检查网络!"];
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"请重新登录" message:@"您已掉线或网络异常" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"重新登录", nil];
+        [alertView show];
+#pragma clang diagnostic pop
         
         !completionHandler ?: completionHandler(nil, error);
     }];
@@ -165,5 +174,14 @@
     [downloadTask resume];
     return  downloadTask;
 }
-
+//-Wdeprecated-declarations
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex) {
+//        HZLoginViewController *loginVC = [HZLoginViewController new];
+//        kAppdelegate.window.rootViewController = loginVC;
+    }
+}
+#pragma clang diagnostic pop
 @end

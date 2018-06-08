@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (NetWorking)
+@interface NSObject (NetWorking)<UIAlertViewDelegate>
 
 /**
  description: GET请求
