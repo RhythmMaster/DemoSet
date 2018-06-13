@@ -176,6 +176,7 @@
 }
 //-Wdeprecated-declarations
 #pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-implementations"
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
     if (buttonIndex) {
