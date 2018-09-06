@@ -13,6 +13,10 @@
 		240DBF5D200F422D00E6B89C /* CustomTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 240DBF5C200F422D00E6B89C /* CustomTransitionAnimation.m */; };
 		241317951FEA3BE800882FA6 /* PictureStretchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241317941FEA3BE800882FA6 /* PictureStretchViewController.m */; };
 		241AA7442024626900DB7954 /* UILabelNullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241AA7432024626900DB7954 /* UILabelNullViewController.m */; };
+		241C37B2213F691C0062DCD3 /* UINavigationController+StatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C37B1213F691B0062DCD3 /* UINavigationController+StatusBarStyle.m */; };
+		241C37B7213FC65F0062DCD3 /* UIViewController+TZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C37B6213FC65F0062DCD3 /* UIViewController+TZLExtension.m */; };
+		241C37BA213FC7C10062DCD3 /* UINavigationController+TZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C37B9213FC7C10062DCD3 /* UINavigationController+TZLExtension.m */; };
+		241C37BD213FCC400062DCD3 /* NSNumber+TZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C37BC213FCC400062DCD3 /* NSNumber+TZLExtension.m */; };
 		241EC6C42027E8F100C55539 /* NSString+ForNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 241EC6C32027E8F100C55539 /* NSString+ForNull.m */; };
 		241EC6C72027F2F200C55539 /* UIFont+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 241EC6C62027F2F200C55539 /* UIFont+runtime.m */; };
 		241EC6CA2027FBC300C55539 /* UILabel+ForNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 241EC6C92027FBC300C55539 /* UILabel+ForNull.m */; };
@@ -76,6 +80,8 @@
 		243A422620C8D1C500ECC1E2 /* TZLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A422520C8D1C500ECC1E2 /* TZLTabBar.m */; };
 		243A422920C8D4CB00ECC1E2 /* TZLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A422820C8D4CB00ECC1E2 /* TZLNavigationController.m */; };
 		243A422C20C8D53D00ECC1E2 /* SubTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A422B20C8D53D00ECC1E2 /* SubTabBarViewController.m */; };
+		243A425720D1F8B500ECC1E2 /* ThenAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A425620D1F8B500ECC1E2 /* ThenAnimationViewController.m */; };
+		243A425A20D1FD3F00ECC1E2 /* SubThenAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A425920D1FD3F00ECC1E2 /* SubThenAnimationViewController.m */; };
 		243B62081FB9789C006472EE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243B62071FB9789C006472EE /* FirstViewController.m */; };
 		243B620B1FB97902006472EE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243B620A1FB97902006472EE /* SecondViewController.m */; };
 		243B620D1FB97D4E006472EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243B620C1FB97D4E006472EE /* Assets.xcassets */; };
@@ -191,6 +197,16 @@
 		241317941FEA3BE800882FA6 /* PictureStretchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureStretchViewController.m; sourceTree = "<group>"; };
 		241AA7422024626900DB7954 /* UILabelNullViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILabelNullViewController.h; sourceTree = "<group>"; };
 		241AA7432024626900DB7954 /* UILabelNullViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabelNullViewController.m; sourceTree = "<group>"; };
+		241C37AE213E32A50062DCD3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		241C37AF213E32A60062DCD3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		241C37B0213F691B0062DCD3 /* UINavigationController+StatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StatusBarStyle.h"; sourceTree = "<group>"; };
+		241C37B1213F691B0062DCD3 /* UINavigationController+StatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StatusBarStyle.m"; sourceTree = "<group>"; };
+		241C37B5213FC65F0062DCD3 /* UIViewController+TZLExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TZLExtension.h"; sourceTree = "<group>"; };
+		241C37B6213FC65F0062DCD3 /* UIViewController+TZLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TZLExtension.m"; sourceTree = "<group>"; };
+		241C37B8213FC7C10062DCD3 /* UINavigationController+TZLExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TZLExtension.h"; sourceTree = "<group>"; };
+		241C37B9213FC7C10062DCD3 /* UINavigationController+TZLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TZLExtension.m"; sourceTree = "<group>"; };
+		241C37BB213FCC400062DCD3 /* NSNumber+TZLExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+TZLExtension.h"; sourceTree = "<group>"; };
+		241C37BC213FCC400062DCD3 /* NSNumber+TZLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+TZLExtension.m"; sourceTree = "<group>"; };
 		241EC6C22027E8F100C55539 /* NSString+ForNull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ForNull.h"; sourceTree = "<group>"; };
 		241EC6C32027E8F100C55539 /* NSString+ForNull.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ForNull.m"; sourceTree = "<group>"; };
 		241EC6C52027F2F200C55539 /* UIFont+runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+runtime.h"; sourceTree = "<group>"; };
@@ -296,6 +312,10 @@
 		243A422820C8D4CB00ECC1E2 /* TZLNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLNavigationController.m; sourceTree = "<group>"; };
 		243A422A20C8D53D00ECC1E2 /* SubTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubTabBarViewController.h; sourceTree = "<group>"; };
 		243A422B20C8D53D00ECC1E2 /* SubTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubTabBarViewController.m; sourceTree = "<group>"; };
+		243A425520D1F8B500ECC1E2 /* ThenAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThenAnimationViewController.h; sourceTree = "<group>"; };
+		243A425620D1F8B500ECC1E2 /* ThenAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThenAnimationViewController.m; sourceTree = "<group>"; };
+		243A425820D1FD3F00ECC1E2 /* SubThenAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubThenAnimationViewController.h; sourceTree = "<group>"; };
+		243A425920D1FD3F00ECC1E2 /* SubThenAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubThenAnimationViewController.m; sourceTree = "<group>"; };
 		243B62061FB9789C006472EE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		243B62071FB9789C006472EE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		243B62091FB97902006472EE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -516,6 +536,24 @@
 			path = UILabel;
 			sourceTree = "<group>";
 		};
+		241C37B3213FC6220062DCD3 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				241C37B5213FC65F0062DCD3 /* UIViewController+TZLExtension.h */,
+				241C37B6213FC65F0062DCD3 /* UIViewController+TZLExtension.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		241C37B4213FC6220062DCD3 /* NavigitationController */ = {
+			isa = PBXGroup;
+			children = (
+				241C37B8213FC7C10062DCD3 /* UINavigationController+TZLExtension.h */,
+				241C37B9213FC7C10062DCD3 /* UINavigationController+TZLExtension.m */,
+			);
+			path = NavigitationController;
+			sourceTree = "<group>";
+		};
 		241EC6CB202BE82100C55539 /* SizeClasses */ = {
 			isa = PBXGroup;
 			children = (
@@ -728,6 +766,17 @@
 			path = CustomTabbar;
 			sourceTree = "<group>";
 		};
+		243A425420D1F89100ECC1E2 /* Animation2018-06-14 */ = {
+			isa = PBXGroup;
+			children = (
+				243A425520D1F8B500ECC1E2 /* ThenAnimationViewController.h */,
+				243A425620D1F8B500ECC1E2 /* ThenAnimationViewController.m */,
+				243A425820D1FD3F00ECC1E2 /* SubThenAnimationViewController.h */,
+				243A425920D1FD3F00ECC1E2 /* SubThenAnimationViewController.m */,
+			);
+			path = "Animation2018-06-14";
+			sourceTree = "<group>";
+		};
 		243B62051FB97873006472EE /* TestController */ = {
 			isa = PBXGroup;
 			children = (
@@ -829,10 +878,14 @@
 		248D67131FB44A26006CED4C /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				241C37B4213FC6220062DCD3 /* NavigitationController */,
+				241C37B3213FC6220062DCD3 /* UIViewController */,
 				248D67141FB44A37006CED4C /* NSObject+NetWorking.h */,
 				248D67151FB44A37006CED4C /* NSObject+NetWorking.m */,
 				248D67171FB44A7C006CED4C /* NSString+ToURL.h */,
 				248D67181FB44A7C006CED4C /* NSString+ToURL.m */,
+				241C37BB213FCC400062DCD3 /* NSNumber+TZLExtension.h */,
+				241C37BC213FCC400062DCD3 /* NSNumber+TZLExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -842,6 +895,8 @@
 			children = (
 				248D671B1FB45602006CED4C /* ForTest.h */,
 				248D671C1FB45602006CED4C /* ForTest.m */,
+				241C37B0213F691B0062DCD3 /* UINavigationController+StatusBarStyle.h */,
+				241C37B1213F691B0062DCD3 /* UINavigationController+StatusBarStyle.m */,
 				248D671E1FB555A9006CED4C /* TestViewController.h */,
 				248D671F1FB555A9006CED4C /* TestViewController.m */,
 				243B62051FB97873006472EE /* TestController */,
@@ -996,6 +1051,7 @@
 		24F6B8C91FCCED8900AF9BBC /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				243A425420D1F89100ECC1E2 /* Animation2018-06-14 */,
 				24F6B8CF1FCD395200AF9BBC /* AnimationViewController.h */,
 				24F6B8D01FCD395200AF9BBC /* AnimationViewController.m */,
 				24F6B8CA1FCCEDA700AF9BBC /* BasicAnimationViewController.h */,
@@ -1537,6 +1593,7 @@
 				242AA367201729DD0008AF64 /* ControllerButton.m in Sources */,
 				24F6B9401FD4F69900AF9BBC /* DictionaryToModelViewController.m in Sources */,
 				248D67201FB555A9006CED4C /* TestViewController.m in Sources */,
+				241C37B7213FC65F0062DCD3 /* UIViewController+TZLExtension.m in Sources */,
 				240DBF56200F358F00E6B89C /* TransitionAnimationViewControllerFirst.m in Sources */,
 				24F6B8D11FCD395200AF9BBC /* AnimationViewController.m in Sources */,
 				242FCE6B1FFCD00300F21C10 /* TestFramHaveTabBarViewController.m in Sources */,
@@ -1545,6 +1602,7 @@
 				243A41EF20C76A6500ECC1E2 /* SubStatckViewViewController.m in Sources */,
 				241FF4FC1FF5E919001F8179 /* CategoryFunctionViewController.m in Sources */,
 				243A41E120C4DD9300ECC1E2 /* FilterViewController.m in Sources */,
+				241C37BD213FCC400062DCD3 /* NSNumber+TZLExtension.m in Sources */,
 				24241E882051194B00A6EDEC /* CustomCollectionViewLayout.m in Sources */,
 				242FCE6E1FFCD22800F21C10 /* TestFramHaveTabBarController.m in Sources */,
 				240DBF5D200F422D00E6B89C /* CustomTransitionAnimation.m in Sources */,
@@ -1558,6 +1616,7 @@
 				248D67111FB43161006CED4C /* DownloadViewController.m in Sources */,
 				24B037B720BD4BCE00D9B5E2 /* UIButton+TZLAdjust.m in Sources */,
 				24F6B8CD1FCCEDA700AF9BBC /* BasicAnimationViewController.m in Sources */,
+				241C37B2213F691C0062DCD3 /* UINavigationController+StatusBarStyle.m in Sources */,
 				242AA368201729DD0008AF64 /* TZLImageView.m in Sources */,
 				248D67191FB44A7C006CED4C /* NSString+ToURL.m in Sources */,
 				242FCE581FFC99DC00F21C10 /* TestObject+function.m in Sources */,
@@ -1572,7 +1631,9 @@
 				24DA57E71FB2F72E00663104 /* AppDelegate.m in Sources */,
 				24F6B92C1FD0E92100AF9BBC /* ArchiveViewController.m in Sources */,
 				243A41F420C7727B00ECC1E2 /* PickerViewController.m in Sources */,
+				243A425A20D1FD3F00ECC1E2 /* SubThenAnimationViewController.m in Sources */,
 				242AA359201729930008AF64 /* SolidObjectViewController.m in Sources */,
+				241C37BA213FC7C10062DCD3 /* UINavigationController+TZLExtension.m in Sources */,
 				240DBF59200F40DB00E6B89C /* TransitionAnimationViewControllerSecond.m in Sources */,
 				242AA369201729DD0008AF64 /* TZLMenuButtonView.m in Sources */,
 				24F6B9301FD0EFAB00AF9BBC /* FilePathViewController.m in Sources */,
@@ -1583,6 +1644,7 @@
 				248D670D1FB2FF3B006CED4C /* TZLRefresh.m in Sources */,
 				243A41E520C6261700ECC1E2 /* MasonryViewController.m in Sources */,
 				243A41E820C626CC00ECC1E2 /* SubMasonaryViewController.m in Sources */,
+				243A425720D1F8B500ECC1E2 /* ThenAnimationViewController.m in Sources */,
 				24A0B5A41FF338B00031B67A /* SelfAndSuperViewController.m in Sources */,
 				242AA35D201729930008AF64 /* ThreeDTransformViewController.m in Sources */,
 				24F6B9511FD69BD200AF9BBC /* FourViewController.m in Sources */,
@@ -1627,6 +1689,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				24DA57EC1FB2F72E00663104 /* Base */,
+				241C37AE213E32A50062DCD3 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1635,6 +1698,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				24DA57F11FB2F72E00663104 /* Base */,
+				241C37AF213E32A60062DCD3 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1646,6 +1710,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1703,6 +1768,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

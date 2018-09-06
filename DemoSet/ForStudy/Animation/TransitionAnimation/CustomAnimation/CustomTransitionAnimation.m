@@ -25,10 +25,15 @@
     return 0.5;
 }
 
+- (TransitionAnimationViewControllerFirst *)extracted:(id<UIViewControllerContextTransitioning> _Nonnull)transitionContext {
+    TransitionAnimationViewControllerFirst *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+    return fromVC;
+}
+
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
     UIView *containerView = transitionContext.containerView;
     if (self.flag) {//push
-        TransitionAnimationViewControllerFirst *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+        TransitionAnimationViewControllerFirst * fromVC = [self extracted:transitionContext];
         TransitionAnimationViewControllerSecond *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
         
         UIView *animationView = [fromVC getSelectedCell];
@@ -47,7 +52,7 @@
         toVC.view.frame = toVCFinalFrame;
         toVC.view.alpha = 0;
         
-        
+
         [containerView addSubview:toVC.view];
         [containerView addSubview:snapShotView];
         
@@ -55,13 +60,14 @@
             //toVC.view.frame = toVCFinalFrame;
             toVC.view.alpha = 1;
             snapShotView.frame = [containerView convertRect:toView.frame fromView:toVC.view];
-            
+            NSLog(@"----%@", NSStringFromCGRect(containerView.frame));
+            NSLog(@"%@", containerView.superview);
         } completion:^(BOOL finished) {
             animationView.hidden = NO;
             toView.hidden = NO;
             NSLog(@"%@", NSStringFromCGRect(toView.frame));
             NSLog(@"%@", NSStringFromCGRect(snapShotView.frame));
-            //[snapShotView removeFromSuperview];
+            [snapShotView removeFromSuperview];
             //告诉系统动画结束
             [transitionContext completeTransition:!transitionContext.transitionWasCancelled];
         }];
@@ -91,10 +97,11 @@
             UIScrollView *superView = (UIScrollView *)toView.superview;
             finalFram.origin.y -= superView.contentOffset.y;
             snapShotView.frame = finalFram;
+            NSLog(@"----%@", NSStringFromCGRect(containerView.frame));
         } completion:^(BOOL finished) {
             animationView.hidden = NO;
             toView.hidden = NO;
-            //[snapShotView removeFromSuperview];
+            [snapShotView removeFromSuperview];
             //告诉系统动画结束
             [transitionContext completeTransition:!transitionContext.transitionWasCancelled];
         }];

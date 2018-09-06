@@ -16,6 +16,7 @@
 #import "ComprehensiveViewController.h"
 #import "ThreeDTransformViewController.h"
 #import "TransitionAnimationViewControllerFirst.h"
+#import "ThenAnimationViewController.h"
 
 @interface AnimationViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableView;
@@ -67,13 +68,13 @@
 
 - (NSArray *)dataArr {
     if (!_dataArr) {
-        _dataArr = @[@"基础动画", @"帧动画", @"组动画", @"过渡动画", @"仿射动画", @"综合案例", @"3D转换", @"转场动画"];
+        _dataArr = @[@"基础动画", @"帧动画", @"组动画", @"过渡动画", @"仿射动画", @"综合案例", @"3D转换", @"转场动画", @"动画学习2018-06-14"];
     }
     return _dataArr;
 }
 - (NSArray *)controllerArr {
     if (!_controllerArr) {
-        _controllerArr = @[[BasicAnimationViewController class], [KeyAnimationViewController class], [GroupAnimationViewController class], [TransitionAnimationViewController class], [AffineTransformViewController class], [ComprehensiveViewController class], [ThreeDTransformViewController class], [TransitionAnimationViewControllerFirst class]];
+        _controllerArr = @[[BasicAnimationViewController class], [KeyAnimationViewController class], [GroupAnimationViewController class], [TransitionAnimationViewController class], [AffineTransformViewController class], [ComprehensiveViewController class], [ThreeDTransformViewController class], [TransitionAnimationViewControllerFirst class], [ThenAnimationViewController class]];
         
     }
     return _controllerArr;
